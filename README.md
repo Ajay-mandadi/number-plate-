@@ -13,17 +13,8 @@ In the proposed algorithm an efficient method for recognition of Indian vehicle 
 This project will work efficiently in recognizing owner's vehicle in small Institutions/Housing societies/Apartments. We can further modify the code to use it in other areas where ANPR is necessary. 
 
 ![anpt1]![op2](https://github.com/Ajay-mandadi/number-plate-/assets/166850848/7f31032a-60e7-401e-9ef2-992b5d30e2a1)
+//PROCEDURE
 
-Refer [Project_Report.pdf](Project_Report.pd
-f) and [Project Implementation vedio](https://drive.google.com/file/d/1ftCxlbQqHYLonTMoqEFcAyVe4OKleW2j/view?usp=sharing)  for more details regarding the implementation. 
-
-Give the path of folders "Dataset" and "Search_image" while executing [Program.py](Program.py)
-## References:
-* M M Shidore, and S P Narote. (2011) “Number Plate Recognition for Indian Vehicles” International Journal of Computer Science and  Network Security 11 (2): 143-146 
-* Sang Kyoon Kim, D. W. Kim and Hang Joon Kim. (1996) “A recognition of vehicle license plate using a genetic algorithm based segmentation,” Proceedings of 3rd IEEE International Conference on Image Processing, Lausanne. 
-* https://docs.opencv.org/master/
-* https://github.com/anuj-badhwar/Indian-Number-Plate-Recognition-System
-procedure
 Import Required Libraries: Import the necessary libraries, including OpenCV for image processing.
 
 Upload Image: Use the files.upload() method from Google Colab to upload an image containing a vehicle with a visible number plate.
@@ -35,3 +26,12 @@ License Plate Detection: Use the CascadeClassifier from OpenCV to detect license
 Mark License Plates: For each detected license plate, draw a rectangle around it and mark it with a green color.
 
 Display the Image: Display the processed image with the marked license plates using the cv2_imshow method from Google Colab.
+
+
+
+Give the path of folders "Dataset" and "Search_image" while executing [Program.py](Program.py)
+## References:
+* M M Shidore, and S P Narote. (2011) “Number Plate Recognition for Indian Vehicles” International Journal of Computer Science and  Network Security 11 (2): 143-146 
+* Sang Kyoon Kim, D. W. Kim and Hang Joon Kim. (1996) “A recognition of vehicle license plate using a genetic algorithm based segmentation,” Proceedings of 3rd IEEE International Conference on Image Processing, Lausanne. 
+* https://docs.opencv.org/master/
+* https://github.com/anuj-badhwar/Indian-Number-Plate-Recognition-System
