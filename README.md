@@ -13,8 +13,8 @@ In the proposed algorithm an efficient method for recognition of Indian vehicle 
 This project will work efficiently in recognizing owner's vehicle in small Institutions/Housing societies/Apartments. We can further modify the code to use it in other areas where ANPR is necessary. 
 
 ![anpt1]![op2](https://github.com/Ajay-mandadi/number-plate-/assets/166850848/7f31032a-60e7-401e-9ef2-992b5d30e2a1)
-//PROCEDURE
 
+## PROCEDURE
 Import Required Libraries: Import the necessary libraries, including OpenCV for image processing.
 
 Upload Image: Use the files.upload() method from Google Colab to upload an image containing a vehicle with a visible number plate.
