@@ -23,3 +23,15 @@ Give the path of folders "Dataset" and "Search_image" while executing [Program.p
 * Sang Kyoon Kim, D. W. Kim and Hang Joon Kim. (1996) “A recognition of vehicle license plate using a genetic algorithm based segmentation,” Proceedings of 3rd IEEE International Conference on Image Processing, Lausanne. 
 * https://docs.opencv.org/master/
 * https://github.com/anuj-badhwar/Indian-Number-Plate-Recognition-System
+procedure
+Import Required Libraries: Import the necessary libraries, including OpenCV for image processing.
+
+Upload Image: Use the files.upload() method from Google Colab to upload an image containing a vehicle with a visible number plate.
+
+Load and Preprocess Image: Load the uploaded image using OpenCV and convert it to grayscale.
+
+License Plate Detection: Use the CascadeClassifier from OpenCV to detect license plates in the image. You can use a pre-trained Haar cascade classifier for this purpose.
+
+Mark License Plates: For each detected license plate, draw a rectangle around it and mark it with a green color.
+
+Display the Image: Display the processed image with the marked license plates using the cv2_imshow method from Google Colab.
